@@ -4,7 +4,7 @@ class Solution:
             Take this list as an example where each element after
             the first is the next step towards 0:
 
-                [31, 30, 15, 14, 7, 6, 3, 2, 1, 0]
+                [31, 30, 15, 14, 7, 6, 3, 2, 0]
 
             The bit representation for each element is as follows:
 
@@ -16,8 +16,7 @@ class Solution:
                     006 | 00000110
                     007 | 00000011
                     008 | 00000010
-                    009 | 00000001
-                    010 | 00000000
+                    009 | 00000000
 
             The pattern here is:                   i: 001      i: 002
             Step 1: Flip the rightmost bit to 0. (00011111 -> 00011110)        i: 003
