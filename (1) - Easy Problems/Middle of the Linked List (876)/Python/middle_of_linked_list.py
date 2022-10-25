@@ -22,7 +22,7 @@ class Solution():
 
             Since in the 3rd iteration fast would be outside the index,
             which in practical settings is not allowed, the while loop ends
-            and the value of 'slow' is returned.
+            and the value of 'slow' is returned. In this case [3, 4, 5]
         """
         slow = fast = head
 
