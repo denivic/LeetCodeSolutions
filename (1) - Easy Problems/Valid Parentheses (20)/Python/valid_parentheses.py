@@ -35,7 +35,9 @@ class Solution:
                                   0 -> ['(']
 
                 So as mentioned previously, for each iteration add opening bracket
-                and for each closing bracket pop the top item in the stack:
+                and for each closing bracket pop the top item in the stack. If at
+                any point the popped bracket doesn't match the current bracket we
+                return False. So for each iteration:
 
                 1st Iteration
                 -------------
